@@ -1,0 +1,33 @@
+
+.navbar nav {
+  display: flex;
+  column-gap: 2rem;
+}
+
+nav a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 4rem;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  background-color: var(--color-secondary);
+  transition: var(--transition);
+  text-decoration: none;
+  padding: 0.5rem;
+  color: white;
+}
+
+nav a:hover {
+  background-color: var(--color-activeBtn);
+  transform: scale(1.1);
+}
+
+@media (min-width: 580px) {
+  nav a {
+    width: 6rem;
+    height: 5rem;
+    font-size: 1.6rem;
+  }
+}

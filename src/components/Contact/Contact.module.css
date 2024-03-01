@@ -1,0 +1,85 @@
+.contact {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contactForm {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 600px;
+  }
+  .contactForm > * {
+    padding: 0.5rem;
+    margin: 1rem auto;
+    display: block;
+    width: 100%;
+  }
+  .contactForm legend {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  .contactForm input,
+  .contactForm textarea {
+    font-size: 1rem;
+    font-family: var(--main-font);
+    line-height: normal;
+    color: antiquewhite;
+    background-color: var(--color-third);
+    border: none;
+    border-radius: 1rem;
+    box-shadow: inset 0.25rem 0.25rem 1rem rgba(231, 180, 180, 0.25);
+  }
+  .contactForm input[type=submit] {
+    width: 12rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: var(--color-primary);
+    background-color: var(--color-secondary);
+  }
+  .contactForm input[type=submit]:hover {
+    opacity: 0.75;
+  }
+  .contactForm *::-moz-placeholder {
+    color: rgba(245, 245, 245, 0.5098039216);
+  }
+  .contactForm *:-ms-input-placeholder {
+    color: rgba(245, 245, 245, 0.5098039216);
+  }
+  .contactForm *::placeholder {
+    color: rgba(245, 245, 245, 0.5098039216);
+  }
+  .contactForm textarea {
+    resize: none;
+  }
+  .contactForm .contactFormLoader {
+    text-align: center;
+    opacity: 1;
+  }
+
+  .errors {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 3rem;
+    font-family: var(--main-font);
+    
+  }
+  .errors span {
+    color: rgb(228, 80, 80);
+    background-color: var(--color-third);
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  @media (min-width: 644px) {
+    .contactForm {
+      width: 50%;
+    }
+  }

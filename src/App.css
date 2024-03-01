@@ -1,0 +1,33 @@
+:root {
+  --main-font: 'Raleway', sans-serif;
+  --first-font: 'Kurale', serif;
+  --color-primary: rgb(5, 5, 54);
+  --color-secondary: rgb(146, 96, 31);
+  --color-third: #183e62;
+  --color-fourth: rgba(120, 158, 186, 0.07);
+  --color-activeBtn: rgba(146, 96, 31, 0.408);
+  --transition: all 0.5s ease-in-out;
+}
+html {
+  color-scheme: light;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-primary);
+  font-family: var(--first-font);
+  list-style: none;
+  color: white;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+.app {
+  position: relative;
+}

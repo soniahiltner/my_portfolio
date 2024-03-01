@@ -1,0 +1,38 @@
+.home {
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+  padding: 2rem;
+}
+
+.myPhoto {
+  width: 8rem;
+  border-radius: 0.5rem;
+  object-fit: cover;
+  filter: grayscale(1);
+  transition: var(--transition);
+}
+
+.myPhoto:hover {
+  filter: grayscale(0);
+}
+
+.rightHome {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.name {
+  text-transform: capitalize;
+}
+
+.myName {
+  color: var(--color-secondary);
+}
+
+@media (min-width: 580px) {
+  .myPhoto {
+    width: 10rem;
+  }
+}

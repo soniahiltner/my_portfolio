@@ -1,0 +1,26 @@
+Empecé a programar en 2021 de forma autodidacta siguiendo el curriculum de freecodecamp.
+No tengo experiencia laboral en ninguna empresa, pero en este período he desarrollado suficientes proyectos personales que me han permitido adquirir los siguientes conocimientos:
+-HTML
+-CSS
+-Javascript
+-React
+-Node js 
+-MongoDB and mongoose
+-PostgreSQL
+-Python
+Me considero una persona disciplinada y creativa. Me encanta la jardinería , pintar y cualquier actividad en la que pueda usar mi creatividad.
+=====================================
+
+I started programming in 2021 as a self-taught person following the freeCodeCamp curriculum.
+I do not have work experience in any company, but in this period I have developed enough personal projects that have allowed me to acquire the following knowledge:
+-HTML
+-CSS
+-Javascript
+-React
+-Node js 
+-MongoDB and mongoose
+-PostgreSQL
+-Python
+And I'm keeping learning
+
+I consider myself a disciplined and creative person. I love gardening, painting and any activity where I can use my creativity.

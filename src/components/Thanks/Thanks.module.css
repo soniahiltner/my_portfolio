@@ -1,0 +1,19 @@
+.modal {
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-primary);
+  pointer-events: none;
+  transition: all 1s;
+}
+.contactFormResponse {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+.contactFormResponse svg {
+  margin-top: 4rem;
+  width: 4rem;
+  height: 4rem;
+}

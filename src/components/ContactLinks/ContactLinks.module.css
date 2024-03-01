@@ -1,0 +1,17 @@
+.contactLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+  margin-bottom: 5rem;
+}
+
+.contactLinks a {
+  color: white;
+  font-size: 2rem;
+  transition: color 0.3s;
+}
+
+.contactLinks a:hover {
+  color: var(--color-secondary);
+}

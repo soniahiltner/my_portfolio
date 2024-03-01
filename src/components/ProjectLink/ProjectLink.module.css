@@ -1,0 +1,63 @@
+.projectLink {
+  position: relative;
+  max-width: 300px;
+  border-radius: 1rem;
+}
+
+.projectLink img {
+  display: block;
+  width: 250px;
+  height: 14rem;
+  border: 1px solid wheat;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.projectTitle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(63, 46, 46, 0.6);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 1rem;
+  font-family: var(--main-font);
+  text-shadow: -1px 1px 0 black, 1px 1px 0 #22a72d,
+    1px -1px 0 var(--color-secondary), -1px -1px 0 #e9e2e2;
+}
+
+.projectTitle:hover {
+  background: rgba(63, 46, 46, 0.8);
+  color: var(--color-third);
+  text-shadow: -1px 1px 0 #eee6e6, 1px 1px 0 #22a72d,
+    1px -1px 0 var(--color-secondary), -1px -1px 0 #e9e2e2;
+}
+
+.links {
+  display: flex;
+  column-gap: 2rem;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.links a {
+  color: rgb(245, 222, 179);
+  text-decoration-color: var(--color-secondary);
+  padding-bottom: 0.2rem;
+  font-size: 2rem;
+}
+
+.links a:hover {
+  color: var(--color-third);
+  text-shadow: -1px 1px 0 #eee6e6, 1px 1px 0 #22a72d,
+    1px -1px 0 var(--color-secondary), -1px -1px 0 #e9e2e2;
+}
