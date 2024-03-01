@@ -34,10 +34,11 @@ const About = () => {
       <div className={styles.resumeBtn}>
         <button className={styles.downloadBtn}>
         <a
-          href='/assets/Resume.pdf'
-          download
+            href='/assets/Resume.pdf'
+            target='_blank'
+            rel='noopener noreferrer'
         >
-          Download resume <i className='fa fa-download'></i>
+          Download CV <i className='fa fa-download'></i>
         </a>
       </button>
       </div>
