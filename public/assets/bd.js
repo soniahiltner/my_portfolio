@@ -12,7 +12,7 @@ export const projects = [
     type: 'fcc'
   },
   {
-    id: 11,
+    id: 2,
     name: 'DRUM MACHINE',
     image: '/assets/images/Drum Machine-green.png',
     description1: 'Application made with React',
@@ -23,7 +23,7 @@ export const projects = [
     type: 'fcc'
   },
   {
-    id: 2,
+    id: 3,
     name: 'POMODORO CLOCK',
     image: '/assets/images/Pomodoro clock.png',
     description1: 'Application made with React and Bootstrap',
@@ -34,18 +34,7 @@ export const projects = [
     type: 'fcc'
   },
   {
-    id: 3,
-    name: 'CALCULATOR',
-    image: '/assets/images/Calculator.jpg',
-    description1: 'Application made with React',
-    description2:
-      'Project for the Front End Development Libraries Certification',
-    link1: 'https://github.com/soniahiltner/fcc-javascript-calculator',
-    link2: 'https://codepen.io/SoniaHiltner/full/gOvVJPJ',
-    type: 'fcc'
-  },
-  {
-    id: 4,
+    id: 5,
     name: 'MARKDOWN PREVIEWER',
     image: '/assets/images/Markdown Previewer.png',
     description1: 'Application made with React and Bootstrap',
@@ -56,7 +45,7 @@ export const projects = [
     type: 'fcc'
   },
   {
-    id: 5,
+    id: 6,
     name: 'MY PERSONAL LIBRARY',
     image: '/assets/images/personal-library.png',
     description1:
@@ -67,7 +56,7 @@ export const projects = [
     type: 'last'
   },
   {
-    id: 6,
+    id: 7,
     name: 'PHOTO ALBUM',
     image: '/assets/images/Photo-album.png',
     description1:
@@ -108,6 +97,17 @@ export const projects = [
       'Notes and Todos Application with authentication. For a quick demo insert funny as username and 44monos as password.',
     link1: 'https://github.com/soniahiltner/notas-reactivas',
     link2: 'https://notas-reactivas.onrender.com',
+    type: 'last'
+  },
+  {
+    id: 11,
+    name: 'FOOD PLANNER',
+    image: '/assets/images/food-planner.png',
+    description1: 'Application developed with React js and consuming the TheMealDB API',
+    description2:
+      'Application with multiple cooking recipes that allows you to plan menus and make a shopping list of the necessary ingredients with the possibility of adding your own ingredients.',
+    link1: 'https://github.com/soniahiltner/food-planner-react',
+    link2: 'https://food-planner-app.netlify.app',
     type: 'last'
   }
 ]
