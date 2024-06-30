@@ -3,7 +3,7 @@ export const projects = [
   {
     id: 1,
     name: 'MULTIPLAYER GAME',
-    image: '/assets/images/multiplayer_game.png',
+    image: '/assets/images/multiplayer_game.webp',
     description1: 'A 2D real time multiplayer game using the HTML Canvas API and Socket.io',
     description2:
       'Project for the Information Security Certification',
@@ -14,7 +14,7 @@ export const projects = [
   {
     id: 2,
     name: 'DRUM MACHINE',
-    image: '/assets/images/Drum Machine-green.png',
+    image: '/assets/images/drum-machine.webp',
     description1: 'Application made with React',
     description2:
       'Project for the Front End Development Libraries Certification',
@@ -25,7 +25,7 @@ export const projects = [
   {
     id: 3,
     name: 'POMODORO CLOCK',
-    image: '/assets/images/Pomodoro clock.png',
+    image: '/assets/images/pomodoro-clock.webp',
     description1: 'Application made with React and Bootstrap',
     description2:
       'Project for the Front End Development Libraries Certification',
@@ -34,9 +34,9 @@ export const projects = [
     type: 'fcc'
   },
   {
-    id: 5,
+    id: 4,
     name: 'MARKDOWN PREVIEWER',
-    image: '/assets/images/Markdown Previewer.png',
+    image: '/assets/images/markdown-previewer.webp',
     description1: 'Application made with React and Bootstrap',
     description2:
       'Project for the Front End Development Libraries Certification',
@@ -45,9 +45,20 @@ export const projects = [
     type: 'fcc'
   },
   {
+    id: 5,
+    name: 'PHOTO EDITOR',
+    image: '/assets/images/photo-editor.webp',
+    description1:
+      'Application to edit photos created with React js on the frontend and Node js and Express js on the backend, using the Multer library for uploading files to the server and the Sharp library for image processing.',
+    description2: '',
+    link1: 'https://github.com/soniahiltner/photo-editor-docker',
+    link2: 'https://photo-editor-frontend.onrender.com/',
+    type: 'last'
+  },
+  {
     id: 6,
     name: 'MY PERSONAL LIBRARY',
-    image: '/assets/images/personal-library.png',
+    image: '/assets/images/personal-library.webp',
     description1:
       'Server-side rendered application made with Nodejs, Mongoose and Express.',
     description2: 'A nice application for your book collection',
@@ -58,7 +69,7 @@ export const projects = [
   {
     id: 7,
     name: 'PHOTO ALBUM',
-    image: '/assets/images/Photo-album.png',
+    image: '/assets/images/photo-album.webp',
     description1:
       'Fulllstack application made with React, Nodejs, Mongoose and Express.',
     description2:
@@ -70,7 +81,7 @@ export const projects = [
   {
     id: 8,
     name: 'SEQUENCE MEMORY GAME',
-    image: '/assets/images/Sequence memory game.png',
+    image: '/assets/images/sequence-memory-game.webp',
     description1: 'Application made with React and Bootstrap.',
     description2:
       'Memory game that consists of repeating a sequence of numbers, with different levels of difficulty.',
@@ -81,7 +92,7 @@ export const projects = [
   {
     id: 9,
     name: 'BOOKS SHOP',
-    image: '/assets/images/Books-shop.png',
+    image: '/assets/images/books-shop.webp',
     description1: 'Application made with React, Nodejs, Mongoose and Express.',
     description2: 'E-commerce application for a bookstore.',
     link1: 'https://github.com/soniahiltner/bookshop',
@@ -91,7 +102,7 @@ export const projects = [
   {
     id: 10,
     name: 'QUICK NOTES',
-    image: '/assets/images/Quick_notes.png',
+    image: '/assets/images/quick_notes.webp',
     description1: 'Application made with React, Node.js, Mongoose, Express, and JsonWebToken for authentication.',
     description2:
       'Notes and Todos Application with authentication. For a quick demo insert funny as username and 44monos as password.',
@@ -102,7 +113,7 @@ export const projects = [
   {
     id: 11,
     name: 'FOOD PLANNER',
-    image: '/assets/images/food-planner.png',
+    image: '/assets/images/food-planner.webp',
     description1: 'Application developed with React js and consuming the TheMealDB API',
     description2:
       'Application with multiple cooking recipes that allows you to plan menus and make a shopping list of the necessary ingredients with the possibility of adding your own ingredients.',

@@ -1,4 +1,3 @@
-
 .navbar nav {
   display: flex;
   column-gap: 2rem;
@@ -17,6 +16,10 @@ nav a {
   text-decoration: none;
   padding: 0.5rem;
   color: white;
+}
+
+a .active {
+  background-color: var(--color-activeBtn);
 }
 
 nav a:hover {

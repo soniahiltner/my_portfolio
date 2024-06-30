@@ -1,5 +1,5 @@
 import styles from './Contact.module.css'
-import { onValidate } from '../../../public/assets/formValidator'
+import { onValidate } from '../../utils/formValidator'
 import Thanks from '../../components/Thanks/Thanks'
 import { useState } from 'react'
 

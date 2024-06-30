@@ -1,5 +1,5 @@
 import styles from './Projects.module.css'
-import { projects } from '../../../public/assets/bd'
+import { projects } from '../../data/bd'
 import Project from '../Project/Project'
 import ProjectLink from '../ProjectLink/ProjectLink'
 
