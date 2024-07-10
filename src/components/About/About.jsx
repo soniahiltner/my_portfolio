@@ -2,7 +2,10 @@ import styles from './About.module.css'
 
 const About = () => {
   return (
-    <div className={styles.about}>
+    <section
+      className={styles.about}
+      id='about'
+    >
       <h2>About me</h2>
       <p>
         I started programming in 2021 as a self-taught person following the
@@ -43,8 +46,10 @@ const About = () => {
       </button>
       </div>
       
-    </div>
+    </section>
   )
 }
+
+About.displayName = 'About'
 
 export default About

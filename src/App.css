@@ -10,6 +10,8 @@
 }
 html {
   color-scheme: light;
+  user-select: none;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -28,6 +30,7 @@ body {
   margin: 0 auto;
   overflow-x: hidden;
 }
+
 .app {
   position: relative;
 }

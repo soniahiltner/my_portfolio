@@ -1,7 +1,7 @@
 import styles from './Contact.module.css'
 import { onValidate } from '../../utils/formValidator'
 import Thanks from '../../components/Thanks/Thanks'
-import { useState } from 'react'
+import {  useState } from 'react'
 
 
 
@@ -28,7 +28,6 @@ const Contact = () => {
 
     if (err === null) {
       setIsLoading(true)
-      console.log('Sending...')
       fetch('https://formsubmit.co/ajax/sonia.hiltner@gmail.com', {
         method: 'POST',
         headers: {
@@ -63,7 +62,7 @@ const Contact = () => {
   }
 
   return (
-    <div className={styles.contact} id='contact'>
+    <section className={styles.contact} id='contact'>
       <form
         className={styles.contactForm}
         onSubmit={submitForm}
@@ -124,8 +123,10 @@ const Contact = () => {
         )}
         {success && <Thanks />}
       </form>
-    </div>
+    </section>
   )
 }
+
+Contact.displayName = 'Contact'
 
 export default Contact

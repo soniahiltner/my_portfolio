@@ -9,7 +9,7 @@ const Projects = () => {
 
   const fccProjects = projects.filter((project) => project.type === 'fcc')
   return (
-    <div
+    <section
       className={styles.projects}
       id='projects'
     >
@@ -40,8 +40,10 @@ const Projects = () => {
         See more in my freeCodeCamp Curriculum{' '}
         <i className='fa fa-arrow-right'></i>
       </a>
-    </div>
+    </section>
   )
 }
+
+Projects.displayName = 'Projects'
 
 export default Projects

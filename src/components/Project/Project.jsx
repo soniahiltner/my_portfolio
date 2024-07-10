@@ -1,8 +1,6 @@
 import styles from './Project.module.css'
 import PropTypes from 'prop-types'
 
-
-
 const Project = ({ project }) => {
   return (
     <div className={styles.project}>
