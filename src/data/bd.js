@@ -86,7 +86,7 @@ export const projects = [
     description2:
       'Memory game that consists of repeating a sequence of numbers, with different levels of difficulty.',
     link1: 'https://github.com/soniahiltner/sequence-memory-game',
-    link2: 'https://soniahiltner.github.io/sequence-memory-game/',
+    link2: 'https://sequence-memory-game.onrender.com/',
     type: 'last'
   },
   {
